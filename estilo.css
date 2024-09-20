@@ -256,8 +256,8 @@ color: rgb(21, 35, 236);
     margin: 30px 0;
 }
 #portfolio .fila .proyecto{
-    width: 350px;
-    height: 200px;
+    width: 300px;
+    height: 180px;
     border: 1px solid #000;
     margin: 0 10px;
     position: relative;
@@ -353,7 +353,14 @@ footer a{
     margin: 5px;
     font-size: 26px;
 }
+
+.fila {
+    display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se ajusten en múltiples filas */
+  gap: 10px; /* Espacio entre los div */
+}
 /*SECCION RESPONSIVE */
+
 @media screen and (max-width:800px){
     .redes{
         display: none;
